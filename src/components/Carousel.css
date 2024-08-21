@@ -1,0 +1,60 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+  }
+  .explore-button {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background:transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .carousel-image {
+    max-width: 100%;
+    max-height: 500px;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .carousel-image img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+  
+  .left-arrow,
+  .right-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    border-radius: 50%;
+    user-select: none;
+    z-index: 1;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
