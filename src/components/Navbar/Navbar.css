@@ -1,0 +1,24 @@
+.nav-logo-container img {
+  width: 20%;
+}
+.navbar-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 1024px) {
+  .nav-logo-container img {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-logo-container img {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav-logo-container img {
+    width: 90%;
+  }
+}
